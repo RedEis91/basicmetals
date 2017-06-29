@@ -23,10 +23,68 @@ footer a {
 }
 
 #centerpiece {
-    max-width: 60%;
+    max-width: 67%;
     margin-top: 2%;
     border: 1px solid #4f4f4f;
     border-radius: 1px;
     background-color: #282828;
     
 }
+
+
+#form {
+    background-color: #d10017;
+    height: 100%;
+}
+
+.button{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    align-content: center;
+    margin: 25%;
+}
+.left {
+    max-width: 100%;
+    float: left;
+}
+
+#nameLeft {
+    display: inline-block;
+    float: left;
+    max-width: 49%;
+}
+
+#nameRight {
+    display: inline-block;
+    float: right;
+    max-width: 49%;
+}
+
+.freeQuote {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*
+.quote {
+    background-color: #454545;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 2%;
+    border: 1px solid #4f4f4f;
+    border-radius: 1px;
+}
+
+blockquote {
+    border-left: none;
+    font-size: 12px;
+}
+
+#ray {
+    float: right;
+    margin-top: -9%;
+    padding-right: 2%;
+    padding-right: 2%;
+    font-size: 11px;
+}*/
