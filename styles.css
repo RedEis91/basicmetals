@@ -7,6 +7,10 @@ footer {
     text-align: center; 
 }
 
+footer a {
+    color: #bb000d;
+}
+
 .logo, .banner {
     max-height: 100%;
     max-width: 100%;
@@ -15,5 +19,14 @@ footer {
 .header {
     max-height: 100%;
     max-width: 100%;
+    
+}
+
+#centerpiece {
+    max-width: 60%;
+    margin-top: 2%;
+    border: 1px solid #4f4f4f;
+    border-radius: 1px;
+    background-color: #282828;
     
 }
