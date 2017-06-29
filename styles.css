@@ -48,14 +48,6 @@ footer a {
     margin-left: 1%;
 }
 
-.button {
-    max-height: 75%;
-    max-width: 75%;
-    display: block;
-    align-content: center;
-    margin: 25%;
-}
-
 input {
     box-sizing: border-box;
     margin: 0;
@@ -63,7 +55,13 @@ input {
     margin-top: -2%;
     margin-bottom: 2%;
     min-height: 125%;
-    
+    min-width: 100%;
+}
+
+
+
+select {
+    min-width: 100%;
 }
 
 .left {
@@ -74,12 +72,14 @@ input {
 #nameLeft {
     display: inline-block;
     float: left;
+    min-width: 40%;
     max-width: 49%;
 }
 
 #nameRight {
     display: inline-block;
     float: right;
+    min-width: 40%;
     max-width: 49%;
 }
 
@@ -87,6 +87,16 @@ input {
     max-width: 100%;
     max-height: 100%;
     margin: 1%;
+}
+
+.button {
+    min-height: 25%;
+    min-width: 25;
+    max-height: 75%;
+    max-width: 75%;
+    display: block;
+    align-content: center;
+    margin: 25%;
 }
 
 
