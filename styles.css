@@ -1,0 +1,12 @@
+body {
+    background-color: #121212;
+}
+
+footer {
+    font-family: 'Maven';
+}
+
+.logo {
+    max-height: 150%;
+    max-width: 150%;
+}
