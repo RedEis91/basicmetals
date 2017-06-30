@@ -3,11 +3,13 @@ body {
 }
 
 footer {
-    margin-top: 1%;
-    font-family: 'Maven';
+    margin-top: 2%;
+    font-family: sans-serif;
     text-align: center;
     color: #a8a8a8;
-    font-size: 11px
+    font-size: 10px;
+    background-color: #171717;
+    
 }
 
 footer a {
@@ -92,21 +94,17 @@ select {
 .button {
     min-height: 25%;
     min-width: 25;
-    max-height: 75%;
-    max-width: 75%;
+    max-height: 50%;
+    max-width: 35%;
     display: block;
     align-content: center;
-    margin: 25%;
+    margin: 10%;
+    margin-left: 54px;
 }
 
-select {
-    appearance: none;
-    /* remove default arrow */
-    background: url('arrow1.png') no-repeat 0 0;
-    /* add custom arrow */
-    min-height: 125%;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+.dropdown {
+    align-content: center;
+    max-width: 100%;
 }
 
 h4 {
@@ -118,6 +116,19 @@ h4 {
 
 li {
     text-shadow: none;
+    text-decoration: underline;
+    font-size: 9px;
+    
+}
+
+ul {
+    padding-top: 5%;
+    padding-left: 0;
+}
+
+.inYourArea {
+    max-height: 100%;
+    max-width: 100%;
 }
 /*
 .quote {
